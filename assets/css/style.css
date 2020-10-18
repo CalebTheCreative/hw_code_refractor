@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* Body */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Header Styles and Navigation Bar */
 
 header {
     padding: 20px;
@@ -46,9 +50,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Cover Image */
 
 #hero {
     height: 800px;
@@ -56,6 +58,30 @@ p {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+/* Section and Article */
+
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -73,6 +99,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Side Bar */
 
 aside {
     margin-right: 20px;
@@ -103,31 +131,11 @@ aside div img {
     max-width: 150px;
 }
 
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer */
 
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
